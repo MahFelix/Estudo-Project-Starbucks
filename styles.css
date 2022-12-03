@@ -81,7 +81,7 @@ button {
 
 .botao-menu {
     width: 60px;
-    transition: 1s;
+    transition: 0.5s;
     cursor: pointer;
     margin: 10px;
 }
@@ -107,4 +107,8 @@ span:hover {
     background-color: green;
     border-radius: 25px;
     color: aqua;
+}
+
+button:hover {
+    background-color: rebeccapurple;
 }
