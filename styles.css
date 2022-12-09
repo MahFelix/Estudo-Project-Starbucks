@@ -19,7 +19,7 @@ body {
 }
 
 .caixa-texto {
-    width: 800px;
+    width: 300px;
     margin-bottom: 100px;
 }
 
@@ -33,24 +33,26 @@ body {
 .menu {
     display: flex;
     justify-content: center;
+
 }
 
 h2 {
     color: #333;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 500;
 }
 
 span {
+    width: 50px;
     color: #037e5f;
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 100;
     
    
 }
 
 p {
-    width: 500px;
+    width: 700px;
     font-size: 16px;
     /* tamanho da fonte */
 }
@@ -68,7 +70,8 @@ button {
     /* cursor do mouse */
     padding: 10px;
     /* espaçamento interno */
-    margin-top: 20px;
+  
+    
 }
 
 .logo {
@@ -105,10 +108,119 @@ button {
 
 span:hover {
     background-color: green;
-    border-radius: 25px;
+    border-radius: 40px;
     color: aqua;
 }
 
 button:hover {
     background-color: rebeccapurple;
+}
+
+
+circulo2 {
+    display: none;
+}
+
+
+@media screen and  (max-width: 550px) {
+
+    .starbucks {
+        display: none;
+    }
+    .logo {
+        align-items: center;
+        margin-left: 100px;
+        margin-top: 5px;
+    }
+
+    .circulo{
+    position: absolute;
+    width: 550px;
+    height: 160vh;
+    background: #bf48ad;
+    }
+
+   
+
+    p {
+        width: 250px;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    span {
+        color: #13a8ff;
+        font-size: 40px;
+        font-weight: 100;
+        border: 10px;
+        background-color: #410579;
+        border-radius: 50px;
+        padding: 10px;
+        
+        
+
+    }
+
+        h2 {
+        
+         display: none;
+        }
+
+        .menu {
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            margin-left: 60px;
+            margin-bottom: px;
+        }
+
+        h3 {
+            color: #333;
+            font-size: 40px;
+            font-weight: 500;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        button {
+            background: #09b7fc;
+            /* background -> fundo do elemento */
+            color: white;
+            /* cor do texto */
+            border-radius: 40px;
+            /* arredondamento da borda */
+            border: none;
+            /* borda do elemento */
+            cursor: pointer;
+            /* cursor do mouse */
+            padding: 10px;
+            /* espaçamento interno */
+            margin-top: 20px;
+            align-items: center;
+            margin-left: 60px;
+        }
+        .circulo {
+            display: none;
+        }
+
+        .circulo2 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #bf48ad;
+            top: 0;
+            left: 0;
+            clip-path: circle(700px at right 800px);
+            z-index: -1;
+            margin-top: 300px;
+        }
+
+
+      
+        .botao-menu {
+            width: 100px;
+            transition: 0.5s;
+            cursor: pointer;
+            margin: 10px;
+        }
 }
