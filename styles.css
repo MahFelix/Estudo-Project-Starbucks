@@ -121,6 +121,10 @@ circulo2 {
     display: none;
 }
 
+h3 {
+    display: none;
+}
+
 
 @media screen and  (max-width: 550px) {
 
