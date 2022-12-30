@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,500;1,300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +11,7 @@ body {
     padding-top: 10px;
     padding-right: 100px;
     padding-left: 80px;
+   
 }
 
 .conteudo {
@@ -40,13 +43,15 @@ h2 {
     color: #333;
     font-size: 40px;
     font-weight: 500;
+    margin-top: 10px;
 }
 
 span {
     width: 50px;
     color: #037e5f;
-    font-size: 50px;
+    font-size: 200%;
     font-weight: 100;
+    font-family: 'Anton', sans-serif;
     
    
 }
@@ -62,14 +67,15 @@ button {
     /* background -> fundo do elemento */
     color: white;
     /* cor do texto */
-    border-radius: 40px;
+    border-radius: 16px;
     /* arredondamento da borda */
     border: none;
     /* borda do elemento */
     cursor: pointer;
     /* cursor do mouse */
-    padding: 10px;
+    padding: 12px;
     /* espaçamento interno */
+    margin-top: 15px;
   
     
 }
@@ -87,6 +93,10 @@ button {
     transition: 0.5s;
     cursor: pointer;
     margin: 10px;
+    margin: 0;
+   display: flex;
+   margin-bottom: 10px;
+  margin-top: -5px;
 }
 
 .botao-menu:hover {
@@ -103,14 +113,11 @@ button {
     clip-path: circle(700px at right 800px);
     z-index: -1;
     bottom: 0;
+    margin: 0;
 }
 
 
-span:hover {
-    background-color: green;
-    border-radius: 40px;
-    color: aqua;
-}
+
 
 button:hover {
     background-color: rebeccapurple;
@@ -160,7 +167,7 @@ h3 {
         background-color: #410579;
         border-radius: 50px;
         padding: 10px;
-        
+    
         
 
     }
@@ -226,6 +233,6 @@ h3 {
             width: 100px;
             transition: 0.5s;
             cursor: pointer;
-            margin: 10px;
+            margin: 5px;
         }
 }
