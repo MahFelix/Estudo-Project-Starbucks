@@ -57,7 +57,7 @@ span {
 }
 
 p {
-    width: 700px;
+    width: 200%;
     font-size: 16px;
     /* tamanho da fonte */
 }
@@ -80,6 +80,9 @@ button {
     
 }
 
+button:active {
+    opacity: 0.8;
+}
 .logo {
     width: 80px;
 }
